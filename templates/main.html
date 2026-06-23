@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovians Careers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        #banner {
+            width: 100%;
+            max-width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jovians Careers</h1>
+    <img id="banner" src="http://192.168.31.3:5000/static/banner.jpg" alt="Jovians Careers" width="600">
+    <h2>About Jovians</h2>
+    <p>Jovians is a leading company in the field of video editing and production. 
+        We are always looking for talented individuals to join our team.</p>
+     <h2>Open Positions</h2>
+    <ul>
+        <li><a href="/job/1">Video Editor</a></li>
+        <li><a href="/job/2">Motion Graphics Designer</a></li>
+        <li><a href="/job/3">Content Creator</a></li>   
+    <button onclick="window.location.href='/job/1'">Apply for Video Editor</button>
+    <button onclick="window.location.href='/job/2'">Apply for Motion Graphics Designer</button>
+    <button onclick="window.location.href='/job/3'">Apply for Content Creator</button>
+    </ul>
+    <button>Contact Us</button>
+</body>
+</html>
